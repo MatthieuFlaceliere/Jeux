@@ -71,4 +71,34 @@ public sealed class TicTacToeStepDefinitions
     {
         _game.CurrentPlayer.Should().Be(p0);
     }
+
+    [Then(@"the player (.*) wins (.*) starting at cell (.*)")]
+    public void ThenThePlayerXWinsLine(string player, Direction direction, int cell)
+    {
+        _game.GetWinner().Should().BeEquivalentTo(new Winner
+        {
+            Player = player,
+            Direction = direction,
+            startX = cell / 3,
+            startY = cell % 3
+        });
+    }
+
+    [Then(@"no player wins")]
+    public void ThenNoPlayerWins()
+    {
+        _game.GetWinner().Should().BeNull();
+    }
+
+    [Then(@"the game is a draw")]
+    public void ThenTheGameIsADraw()
+    {
+        _game.IsDraw().Should().BeTrue();
+    }
+
+    [Then(@"the game is not a draw")]
+    public void ThenTheGameIsNotADraw()
+    {
+        _game.IsDraw().Should().BeFalse();
+    }
 }

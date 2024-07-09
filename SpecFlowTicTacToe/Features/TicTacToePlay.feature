@@ -116,25 +116,25 @@
         Then error message should be: "Cell is already taken"
                 
     @TicTacToe
-        Scenario: Players try to play out of the board
-            Given the board:
-                |   |   |   |
-                |   |   |   |
-                |   |   |   |
-            When player O plays in cell 9
-            Then error message should be: "Cell is out of the board"
-            When player O plays in cell -1
-            Then error message should be: "Cell is out of the board"
-            When player X plays in cell 100
-            Then error message should be: "Cell is out of the board"
+    Scenario: Players try to play out of the board
+        Given the board:
+            |   |   |   |
+            |   |   |   |
+            |   |   |   |
+        When player O plays in cell 9
+        Then error message should be: "Cell is out of the board"
+        When player O plays in cell -1
+        Then error message should be: "Cell is out of the board"
+        When player X plays in cell 100
+        Then error message should be: "Cell is out of the board"
             
     @TicTacToe
-            Scenario: Change current player after each move
-                Given the board:
-                    |   |   |   |
-                    |   |   |   |
-                    |   |   |   |
-                When player X plays in cell 0
-                Then current player should be: O
-                When player O plays in cell 1
-                Then current player should be: X
+    Scenario: Change current player after each move
+        Given the board:
+            |   |   |   |
+            |   |   |   |
+            |   |   |   |
+        When player X plays in cell 0
+        Then current player should be: O
+        When player O plays in cell 1
+        Then current player should be: X

@@ -110,131 +110,77 @@ namespace SpecFlowTicTacToe.Features
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
                             "",
                             "",
                             ""});
-                table1.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "",
                             "",
                             ""});
-                table1.AddRow(new string[] {
+                table4.AddRow(new string[] {
                             "",
                             "",
                             ""});
 #line 5
-        testRunner.Given("the board:", ((string)(null)), table1, "Given ");
+        testRunner.Given("the board:", ((string)(null)), table4, "Given ");
 #line hidden
 #line 9
         testRunner.When("player X plays in cell 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
                             "X",
                             "",
                             ""});
-                table2.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "",
                             "",
                             ""});
-                table2.AddRow(new string[] {
+                table5.AddRow(new string[] {
                             "",
                             "",
                             ""});
 #line 10
-        testRunner.Then("the board should be:", ((string)(null)), table2, "Then ");
+        testRunner.Then("the board should be:", ((string)(null)), table5, "Then ");
 #line hidden
 #line 14
         testRunner.When("player X plays in cell 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                             "X",
                             "X",
                             ""});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "",
                             "",
                             ""});
-                table3.AddRow(new string[] {
+                table6.AddRow(new string[] {
                             "",
                             "",
                             ""});
 #line 15
-        testRunner.Then("the board should be:", ((string)(null)), table3, "Then ");
+        testRunner.Then("the board should be:", ((string)(null)), table6, "Then ");
 #line hidden
 #line 19
         testRunner.When("player X plays in cell 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
-                            "X",
-                            "X",
-                            "X"});
-                table4.AddRow(new string[] {
-                            "",
-                            "",
-                            ""});
-                table4.AddRow(new string[] {
-                            "",
-                            "",
-                            ""});
-#line 20
-        testRunner.Then("the board should be:", ((string)(null)), table4, "Then ");
-#line hidden
-#line 24
-        testRunner.When("player X plays in cell 3", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
-                            "X",
-                            "X",
-                            "X"});
-                table5.AddRow(new string[] {
-                            "X",
-                            "",
-                            ""});
-                table5.AddRow(new string[] {
-                            "",
-                            "",
-                            ""});
-#line 25
-        testRunner.Then("the board should be:", ((string)(null)), table5, "Then ");
-#line hidden
-#line 29
-        testRunner.When("player X plays in cell 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-                TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
-                            "X",
-                            "X",
-                            "X"});
-                table6.AddRow(new string[] {
-                            "X",
-                            "X",
-                            ""});
-                table6.AddRow(new string[] {
-                            "",
-                            "",
-                            ""});
-#line 30
-        testRunner.Then("the board should be:", ((string)(null)), table6, "Then ");
-#line hidden
-#line 34
-        testRunner.When("player X plays in cell 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
                             "X",
                             "X",
                             "X"});
                 table7.AddRow(new string[] {
-                            "X",
-                            "X",
-                            "X"});
+                            "",
+                            "",
+                            ""});
                 table7.AddRow(new string[] {
                             "",
                             "",
                             ""});
-#line 35
+#line 20
         testRunner.Then("the board should be:", ((string)(null)), table7, "Then ");
 #line hidden
-#line 39
-        testRunner.When("player X plays in cell 6", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 24
+        testRunner.When("player X plays in cell 3", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
                             "X",
@@ -242,17 +188,17 @@ namespace SpecFlowTicTacToe.Features
                             "X"});
                 table8.AddRow(new string[] {
                             "X",
-                            "X",
-                            "X"});
-                table8.AddRow(new string[] {
-                            "X",
                             "",
                             ""});
-#line 40
+                table8.AddRow(new string[] {
+                            "",
+                            "",
+                            ""});
+#line 25
         testRunner.Then("the board should be:", ((string)(null)), table8, "Then ");
 #line hidden
-#line 44
-        testRunner.When("player X plays in cell 7", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 29
+        testRunner.When("player X plays in cell 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
                             "X",
@@ -261,16 +207,16 @@ namespace SpecFlowTicTacToe.Features
                 table9.AddRow(new string[] {
                             "X",
                             "X",
-                            "X"});
-                table9.AddRow(new string[] {
-                            "X",
-                            "X",
                             ""});
-#line 45
+                table9.AddRow(new string[] {
+                            "",
+                            "",
+                            ""});
+#line 30
         testRunner.Then("the board should be:", ((string)(null)), table9, "Then ");
 #line hidden
-#line 49
-        testRunner.When("player X plays in cell 8", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 34
+        testRunner.When("player X plays in cell 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
                             "X",
@@ -281,11 +227,65 @@ namespace SpecFlowTicTacToe.Features
                             "X",
                             "X"});
                 table10.AddRow(new string[] {
+                            "",
+                            "",
+                            ""});
+#line 35
+        testRunner.Then("the board should be:", ((string)(null)), table10, "Then ");
+#line hidden
+#line 39
+        testRunner.When("player X plays in cell 6", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table11 = new TechTalk.SpecFlow.Table(new string[] {
+                            "X",
+                            "X",
+                            "X"});
+                table11.AddRow(new string[] {
+                            "X",
+                            "X",
+                            "X"});
+                table11.AddRow(new string[] {
+                            "X",
+                            "",
+                            ""});
+#line 40
+        testRunner.Then("the board should be:", ((string)(null)), table11, "Then ");
+#line hidden
+#line 44
+        testRunner.When("player X plays in cell 7", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table12 = new TechTalk.SpecFlow.Table(new string[] {
+                            "X",
+                            "X",
+                            "X"});
+                table12.AddRow(new string[] {
+                            "X",
+                            "X",
+                            "X"});
+                table12.AddRow(new string[] {
+                            "X",
+                            "X",
+                            ""});
+#line 45
+        testRunner.Then("the board should be:", ((string)(null)), table12, "Then ");
+#line hidden
+#line 49
+        testRunner.When("player X plays in cell 8", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table13 = new TechTalk.SpecFlow.Table(new string[] {
+                            "X",
+                            "X",
+                            "X"});
+                table13.AddRow(new string[] {
+                            "X",
+                            "X",
+                            "X"});
+                table13.AddRow(new string[] {
                             "X",
                             "X",
                             "X"});
 #line 50
-        testRunner.Then("the board should be:", ((string)(null)), table10, "Then ");
+        testRunner.Then("the board should be:", ((string)(null)), table13, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -321,131 +321,77 @@ namespace SpecFlowTicTacToe.Features
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table11 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table14 = new TechTalk.SpecFlow.Table(new string[] {
                             "",
                             "",
                             ""});
-                table11.AddRow(new string[] {
+                table14.AddRow(new string[] {
                             "",
                             "",
                             ""});
-                table11.AddRow(new string[] {
+                table14.AddRow(new string[] {
                             "",
                             "",
                             ""});
 #line 57
-        testRunner.Given("the board:", ((string)(null)), table11, "Given ");
+        testRunner.Given("the board:", ((string)(null)), table14, "Given ");
 #line hidden
 #line 61
         testRunner.When("player O plays in cell 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table12 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table15 = new TechTalk.SpecFlow.Table(new string[] {
                             "O",
                             "",
                             ""});
-                table12.AddRow(new string[] {
+                table15.AddRow(new string[] {
                             "",
                             "",
                             ""});
-                table12.AddRow(new string[] {
+                table15.AddRow(new string[] {
                             "",
                             "",
                             ""});
 #line 62
-        testRunner.Then("the board should be:", ((string)(null)), table12, "Then ");
+        testRunner.Then("the board should be:", ((string)(null)), table15, "Then ");
 #line hidden
 #line 66
         testRunner.When("player O plays in cell 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
-                TechTalk.SpecFlow.Table table13 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table16 = new TechTalk.SpecFlow.Table(new string[] {
                             "O",
                             "O",
                             ""});
-                table13.AddRow(new string[] {
+                table16.AddRow(new string[] {
                             "",
                             "",
                             ""});
-                table13.AddRow(new string[] {
+                table16.AddRow(new string[] {
                             "",
                             "",
                             ""});
 #line 67
-        testRunner.Then("the board should be:", ((string)(null)), table13, "Then ");
+        testRunner.Then("the board should be:", ((string)(null)), table16, "Then ");
 #line hidden
 #line 71
         testRunner.When("player O plays in cell 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-                TechTalk.SpecFlow.Table table14 = new TechTalk.SpecFlow.Table(new string[] {
-                            "O",
-                            "O",
-                            "O"});
-                table14.AddRow(new string[] {
-                            "",
-                            "",
-                            ""});
-                table14.AddRow(new string[] {
-                            "",
-                            "",
-                            ""});
-#line 72
-        testRunner.Then("the board should be:", ((string)(null)), table14, "Then ");
-#line hidden
-#line 76
-        testRunner.When("player O plays in cell 3", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-                TechTalk.SpecFlow.Table table15 = new TechTalk.SpecFlow.Table(new string[] {
-                            "O",
-                            "O",
-                            "O"});
-                table15.AddRow(new string[] {
-                            "O",
-                            "",
-                            ""});
-                table15.AddRow(new string[] {
-                            "",
-                            "",
-                            ""});
-#line 77
-        testRunner.Then("the board should be:", ((string)(null)), table15, "Then ");
-#line hidden
-#line 81
-        testRunner.When("player O plays in cell 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-                TechTalk.SpecFlow.Table table16 = new TechTalk.SpecFlow.Table(new string[] {
-                            "O",
-                            "O",
-                            "O"});
-                table16.AddRow(new string[] {
-                            "O",
-                            "O",
-                            ""});
-                table16.AddRow(new string[] {
-                            "",
-                            "",
-                            ""});
-#line 82
-        testRunner.Then("the board should be:", ((string)(null)), table16, "Then ");
-#line hidden
-#line 86
-        testRunner.When("player O plays in cell 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table17 = new TechTalk.SpecFlow.Table(new string[] {
                             "O",
                             "O",
                             "O"});
                 table17.AddRow(new string[] {
-                            "O",
-                            "O",
-                            "O"});
+                            "",
+                            "",
+                            ""});
                 table17.AddRow(new string[] {
                             "",
                             "",
                             ""});
-#line 87
+#line 72
         testRunner.Then("the board should be:", ((string)(null)), table17, "Then ");
 #line hidden
-#line 91
-        testRunner.When("player O plays in cell 6", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 76
+        testRunner.When("player O plays in cell 3", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table18 = new TechTalk.SpecFlow.Table(new string[] {
                             "O",
@@ -453,17 +399,17 @@ namespace SpecFlowTicTacToe.Features
                             "O"});
                 table18.AddRow(new string[] {
                             "O",
-                            "O",
-                            "O"});
-                table18.AddRow(new string[] {
-                            "O",
                             "",
                             ""});
-#line 92
+                table18.AddRow(new string[] {
+                            "",
+                            "",
+                            ""});
+#line 77
         testRunner.Then("the board should be:", ((string)(null)), table18, "Then ");
 #line hidden
-#line 96
-        testRunner.When("player O plays in cell 7", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 81
+        testRunner.When("player O plays in cell 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table19 = new TechTalk.SpecFlow.Table(new string[] {
                             "O",
@@ -472,16 +418,16 @@ namespace SpecFlowTicTacToe.Features
                 table19.AddRow(new string[] {
                             "O",
                             "O",
-                            "O"});
-                table19.AddRow(new string[] {
-                            "O",
-                            "O",
                             ""});
-#line 97
+                table19.AddRow(new string[] {
+                            "",
+                            "",
+                            ""});
+#line 82
         testRunner.Then("the board should be:", ((string)(null)), table19, "Then ");
 #line hidden
-#line 101
-        testRunner.When("player O plays in cell 8", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 86
+        testRunner.When("player O plays in cell 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
                 TechTalk.SpecFlow.Table table20 = new TechTalk.SpecFlow.Table(new string[] {
                             "O",
@@ -492,11 +438,65 @@ namespace SpecFlowTicTacToe.Features
                             "O",
                             "O"});
                 table20.AddRow(new string[] {
+                            "",
+                            "",
+                            ""});
+#line 87
+        testRunner.Then("the board should be:", ((string)(null)), table20, "Then ");
+#line hidden
+#line 91
+        testRunner.When("player O plays in cell 6", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table21 = new TechTalk.SpecFlow.Table(new string[] {
+                            "O",
+                            "O",
+                            "O"});
+                table21.AddRow(new string[] {
+                            "O",
+                            "O",
+                            "O"});
+                table21.AddRow(new string[] {
+                            "O",
+                            "",
+                            ""});
+#line 92
+        testRunner.Then("the board should be:", ((string)(null)), table21, "Then ");
+#line hidden
+#line 96
+        testRunner.When("player O plays in cell 7", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table22 = new TechTalk.SpecFlow.Table(new string[] {
+                            "O",
+                            "O",
+                            "O"});
+                table22.AddRow(new string[] {
+                            "O",
+                            "O",
+                            "O"});
+                table22.AddRow(new string[] {
+                            "O",
+                            "O",
+                            ""});
+#line 97
+        testRunner.Then("the board should be:", ((string)(null)), table22, "Then ");
+#line hidden
+#line 101
+        testRunner.When("player O plays in cell 8", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line hidden
+                TechTalk.SpecFlow.Table table23 = new TechTalk.SpecFlow.Table(new string[] {
+                            "O",
+                            "O",
+                            "O"});
+                table23.AddRow(new string[] {
+                            "O",
+                            "O",
+                            "O"});
+                table23.AddRow(new string[] {
                             "O",
                             "O",
                             "O"});
 #line 102
-        testRunner.Then("the board should be:", ((string)(null)), table20, "Then ");
+        testRunner.Then("the board should be:", ((string)(null)), table23, "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -532,20 +532,20 @@ namespace SpecFlowTicTacToe.Features
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table21 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table24 = new TechTalk.SpecFlow.Table(new string[] {
                             "X",
                             "",
                             ""});
-                table21.AddRow(new string[] {
+                table24.AddRow(new string[] {
                             "",
                             "",
                             ""});
-                table21.AddRow(new string[] {
+                table24.AddRow(new string[] {
                             "",
                             "",
                             ""});
 #line 109
-        testRunner.Given("the board:", ((string)(null)), table21, "Given ");
+        testRunner.Given("the board:", ((string)(null)), table24, "Given ");
 #line hidden
 #line 113
         testRunner.When("player X plays in cell 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
@@ -593,20 +593,20 @@ namespace SpecFlowTicTacToe.Features
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table22 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table25 = new TechTalk.SpecFlow.Table(new string[] {
                             "",
                             "",
                             ""});
-                table22.AddRow(new string[] {
+                table25.AddRow(new string[] {
                             "",
                             "",
                             ""});
-                table22.AddRow(new string[] {
+                table25.AddRow(new string[] {
                             "",
                             "",
                             ""});
 #line 120
-            testRunner.Given("the board:", ((string)(null)), table22, "Given ");
+            testRunner.Given("the board:", ((string)(null)), table25, "Given ");
 #line hidden
 #line 124
             testRunner.When("player O plays in cell 9", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
@@ -660,20 +660,20 @@ namespace SpecFlowTicTacToe.Features
             else
             {
                 this.ScenarioStart();
-                TechTalk.SpecFlow.Table table23 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table26 = new TechTalk.SpecFlow.Table(new string[] {
                             "",
                             "",
                             ""});
-                table23.AddRow(new string[] {
+                table26.AddRow(new string[] {
                             "",
                             "",
                             ""});
-                table23.AddRow(new string[] {
+                table26.AddRow(new string[] {
                             "",
                             "",
                             ""});
 #line 133
-                testRunner.Given("the board:", ((string)(null)), table23, "Given ");
+                testRunner.Given("the board:", ((string)(null)), table26, "Given ");
 #line hidden
 #line 137
                 testRunner.When("player X plays in cell 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
