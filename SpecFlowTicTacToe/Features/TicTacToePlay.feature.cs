@@ -574,7 +574,7 @@ namespace SpecFlowTicTacToe.Features
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Players try to play out of the board", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 119
-        this.ScenarioInitialize(scenarioInfo);
+    this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);
@@ -606,25 +606,25 @@ namespace SpecFlowTicTacToe.Features
                             "",
                             ""});
 #line 120
-            testRunner.Given("the board:", ((string)(null)), table25, "Given ");
+        testRunner.Given("the board:", ((string)(null)), table25, "Given ");
 #line hidden
 #line 124
-            testRunner.When("player O plays in cell 9", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+        testRunner.When("player O plays in cell 9", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 125
-            testRunner.Then("error message should be: \"Cell is out of the board\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+        testRunner.Then("error message should be: \"Cell is out of the board\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 126
-            testRunner.When("player O plays in cell -1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+        testRunner.When("player O plays in cell -1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 127
-            testRunner.Then("error message should be: \"Cell is out of the board\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+        testRunner.Then("error message should be: \"Cell is out of the board\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 128
-            testRunner.When("player X plays in cell 100", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+        testRunner.When("player X plays in cell 100", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 129
-            testRunner.Then("error message should be: \"Cell is out of the board\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+        testRunner.Then("error message should be: \"Cell is out of the board\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -641,7 +641,7 @@ namespace SpecFlowTicTacToe.Features
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Change current player after each move", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 132
-            this.ScenarioInitialize(scenarioInfo);
+    this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
             bool isFeatureIgnored = default(bool);
@@ -673,19 +673,19 @@ namespace SpecFlowTicTacToe.Features
                             "",
                             ""});
 #line 133
-                testRunner.Given("the board:", ((string)(null)), table26, "Given ");
+        testRunner.Given("the board:", ((string)(null)), table26, "Given ");
 #line hidden
 #line 137
-                testRunner.When("player X plays in cell 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+        testRunner.When("player X plays in cell 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 138
-                testRunner.Then("current player should be: O", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+        testRunner.Then("current player should be: O", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 139
-                testRunner.When("player O plays in cell 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+        testRunner.When("player O plays in cell 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 140
-                testRunner.Then("current player should be: X", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+        testRunner.Then("current player should be: X", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

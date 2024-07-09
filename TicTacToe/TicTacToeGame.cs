@@ -22,7 +22,7 @@ public class TicTacToeGame
         Play(cell / 3, cell % 3);
     }
 
-    public Winner GetWinner()
+    public Winner? GetWinner()
     {
         // Check rows
         for (int i = 0; i < 3; i++)
